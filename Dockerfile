@@ -50,7 +50,7 @@ COPY --from=sharp --chown=nextjs:nodejs /app/node_modules/.pnpm ./node_modules/.
 
 USER nextjs
 
-EXPOSE 3210
+EXPOSE 8080
 
 # set hostname to localhost
 ENV HOSTNAME "0.0.0.0"
