@@ -54,7 +54,7 @@ EXPOSE 8080
 
 # set hostname to localhost
 ENV HOSTNAME "0.0.0.0"
-ENV PORT=3210
+ENV PORT=8080
 
 # General Variables
 ENV ACCESS_CODE "aihoom"
